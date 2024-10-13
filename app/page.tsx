@@ -2,7 +2,7 @@ import { Github, Twitter, Linkedin, ExternalLink } from "lucide-react";
 
 export default function Portfolio() {
   return (
-    <div className="min-h-screen bg-gradient-to-br  from-gray-800 via-slate-400 to-slate-900 text-gray-100 font-sans">
+    <div className="min-h-screen bg-gradient-to-br  from-gray-800 via-slate-500 to-slate-900 text-gray-100 font-sans">
       <div className="fixed top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500"></div>
       <main className="max-w-3xl mx-auto px-4 py-12">
         <IntroSection />
