@@ -115,7 +115,7 @@ function ProjectsSection() {
       description:
         "Content Creator is a website designed to assist creators in generating high-quality content effortlessly. Content Creator has many templates with which you can produce engaging and polished content ",
       github: "https://github.com/priyankasoni930/Content-Creator.ai",
-      link: "https://main--interview-buddy-pri.netlify.app/",
+      link: "https://content-creator-ai-rose.vercel.app/",
       form: "fullstack",
       techStack: [
         "Next.js",
