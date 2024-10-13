@@ -132,7 +132,7 @@ function ProjectsSection() {
       description:
         "BlogNest is a user-friendly blogging platform designed to make creating, editing, and publishing content effortless, BlogNest also includes commenting, following, and activity tracking functionalities, making it easy to engage with your audience and stay updated on the activity of those you follow.",
       github: "https://github.com/priyankasoni930/BlogNest",
-      link: "https://main--interview-buddy-pri.netlify.app/",
+      link: "https://blog-nest-steel.vercel.app/",
       form: "fullstack",
       techStack: [
         "Next.js",
