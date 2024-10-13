@@ -113,7 +113,7 @@ function ProjectsSection() {
      {
       name: "Content-Creator",
       description:
-        "Content Creator is a website powered by Gemini AI, designed to assist creators in generating high-quality content effortlessly. Content Creator helps in producing engaging and polished content ",
+        "Content Creator is a website designed to assist creators in generating high-quality content effortlessly. Content Creator has many templates with which you can produce engaging and polished content ",
       github: "https://github.com/priyankasoni930/Interview-Buddy/tree/main",
       link: "https://main--interview-buddy-pri.netlify.app/",
       form: "fullstack",
