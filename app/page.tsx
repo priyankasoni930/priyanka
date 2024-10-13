@@ -106,6 +106,40 @@ function ProjectsSection() {
         "Tailwind CSS",
         "PostgreSQL",
         "Gemini AI",
+        "Drizzle"
+      ],
+    },
+
+     {
+      name: "Content-Creator",
+      description:
+        "Interview-Buddy is an app providing personalized interview simulations and AI-powered performance analysis. Designed to help users refine their interview skills.",
+      github: "https://github.com/priyankasoni930/Interview-Buddy/tree/main",
+      link: "https://main--interview-buddy-pri.netlify.app/",
+      form: "fullstack",
+      techStack: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Gemini AI",
+        "Drizzle",
+      ],
+    },
+
+     {
+      name: "BlogNest",
+      description:
+        "Interview-Buddy is an app providing personalized interview simulations and AI-powered performance analysis. Designed to help users refine their interview skills.",
+      github: "https://github.com/priyankasoni930/Interview-Buddy/tree/main",
+      link: "https://main--interview-buddy-pri.netlify.app/",
+      form: "fullstack",
+      techStack: [
+        "Next.js",
+        "JavaScript",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Gemini AI",
       ],
     },
     
