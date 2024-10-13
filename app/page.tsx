@@ -94,15 +94,6 @@ function SkillsSection() {
 function ProjectsSection() {
   const projects = [
     {
-      name: "LinkShrink",
-      description:
-        "LinkShrink is a sleek URL shortener website, designed to make sharing links easier and more efficient. LinkShrink allows users to quickly shorten long URLs, track click statistics, and manage their links effortlessly.",
-      github: "https://github.com/priyankasoni930/LinkShrink",
-      link: "https://link-shrink-snowy.vercel.app/",
-      form: "fullstack",
-      techStack: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind CSS"],
-    },
-    {
       name: "Interview-Buddy",
       description:
         "Interview-Buddy is an app providing personalized interview simulations and AI-powered performance analysis. Designed to help users refine their interview skills.",
@@ -117,6 +108,17 @@ function ProjectsSection() {
         "Gemini AI",
       ],
     },
+    
+    {
+      name: "LinkShrink",
+      description:
+        "LinkShrink is a sleek URL shortener website, designed to make sharing links easier and more efficient. LinkShrink allows users to quickly shorten long URLs, track click statistics, and manage their links effortlessly.",
+      github: "https://github.com/priyankasoni930/LinkShrink",
+      link: "https://link-shrink-snowy.vercel.app/",
+      form: "fullstack",
+      techStack: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind CSS"],
+    },
+    
     {
       name: "Virtual-Herbal-Garden",
       description:
