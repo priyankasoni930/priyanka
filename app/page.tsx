@@ -138,8 +138,7 @@ function ProjectsSection() {
         "Next.js",
         "JavaScript",
         "Tailwind CSS",
-        "PostgreSQL",
-        "Gemini AI",
+        "MongoDB",
       ],
     },
     
