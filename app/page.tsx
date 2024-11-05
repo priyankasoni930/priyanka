@@ -68,7 +68,7 @@ function SkillsSection() {
     "SQL",
     "MongoDB",
     "NodeJS",
-    "Redux",
+    "ExpressJS",
     "Python",
     "GIT",
   ];
