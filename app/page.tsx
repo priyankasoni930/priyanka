@@ -92,6 +92,15 @@ function SkillsSection() {
 }
 
 function ProjectsSection() {
+   // {
+  //   name: "Duel Quest",
+  //   description:
+  //     "Dual Quest is an engaging two-player game designed to offer exciting and competitive gameplay. Whether you're competing with friends or family, Dual Quest delivers an enjoyable and interactive gaming adventure.",
+  //   github: "https://github.com/priyankasoni930/Dual-Quest",
+  //   link: "https://priyankasoni930.github.io/Dual-Quest/",
+  //   form: "fullstack",
+  //   techStack: ["HTML", "CSS", "JavaScript"],
+  // },
   const projects = [
     {
       name: "Interview-Buddy",
@@ -180,15 +189,7 @@ function ProjectsSection() {
       form: "backend",
       techStack: ["Node.js", "Express.js", "MongoDB"],
     },
-    {
-      name: "Duel Quest",
-      description:
-        "Dual Quest is an engaging two-player game designed to offer exciting and competitive gameplay. Whether you're competing with friends or family, Dual Quest delivers an enjoyable and interactive gaming adventure.",
-      github: "https://github.com/priyankasoni930/Dual-Quest",
-      link: "https://priyankasoni930.github.io/Dual-Quest/",
-      form: "fullstack",
-      techStack: ["HTML", "CSS", "JavaScript"],
-    },
+   
   ];
 
   return (
