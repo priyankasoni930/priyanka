@@ -178,7 +178,7 @@ function ProjectsSection() {
       github: "https://github.com/priyankasoni930/StoryNest-Backend",
       link: "#",
       form: "backend",
-      techStack: ["Node.js", "Express.js", "MongoDB"],
+      techStack: ["Node.js", "Express.js", "MongoDB", "Mongoose"],
     },
     {
       name: "DevInquire",
