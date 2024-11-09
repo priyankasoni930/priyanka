@@ -168,7 +168,7 @@ function ProjectsSection() {
       github: "https://github.com/priyankasoni930/Herbal-Garden",
       link: "https://herbal-garden-blue.vercel.app/",
       form: "fullstack",
-      techStack: ["Next.js", "JavaScript", "Tailwind CSS"],
+      techStack: ["Next.js", "JavaScript", "Tailwind CSS", "Gemini AI"],
     },
 
     {
