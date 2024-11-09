@@ -187,7 +187,7 @@ function ProjectsSection() {
       github: "https://github.com/priyankasoni930/DevInquire-Backend",
       link: "#",
       form: "backend",
-      techStack: ["Node.js", "Express.js", "MongoDB"],
+      techStack: ["Node.js", "Express.js", "MongoDB", "Mongoose"],
     },
    
   ];
