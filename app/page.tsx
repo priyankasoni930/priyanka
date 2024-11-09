@@ -158,7 +158,7 @@ function ProjectsSection() {
       github: "https://github.com/priyankasoni930/LinkShrink",
       link: "https://link-shrink-snowy.vercel.app/",
       form: "fullstack",
-      techStack: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind CSS"],
+      techStack: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind CSS", "Prisma"],
     },
     
     {
