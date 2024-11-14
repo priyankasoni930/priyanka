@@ -107,7 +107,7 @@ function ProjectsSection() {
       description:
         "Interview-Buddy is an app providing personalized interview simulations and AI-powered performance analysis. Designed to help users refine their interview skills.",
       github: "https://github.com/priyankasoni930/Interview-Buddy",
-      link: "https://main--interview-buddy-pri.netlify.app/",
+      link: "https://interview-buddyai.vercel.app/",
       form: "fullstack",
       techStack: [
         "Next.js",
