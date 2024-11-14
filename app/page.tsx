@@ -44,7 +44,7 @@ function IntroSection() {
           <Twitter size={28} />
         </a>
           <a
-          href="https://drive.google.com/file/d/1nRQxQxTyzh4HA0IMg3NTkhRvCdjdlPRH/view?usp=sharing"
+          href="https://drive.google.com/file/d/1taP9O2yztH5UdYtYjUt76vsP5EfEMO7p/view?usp=sharing"
           className="text-gray-400 hover:text-green-300 transition-colors font-semibold text-2xl"
           style={{ lineHeight: "28px", height: "28px" }}
           aria-label="CV"
