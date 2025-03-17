@@ -1,8 +1,34 @@
 import { Github, Twitter, Linkedin, ExternalLink } from "lucide-react";
+import Head from "next/head";
 
 export default function Portfolio() {
   return (
     <div className="min-h-screen bg-gradient-to-br  from-gray-800 via-slate-600 to-slate-900 text-gray-100 font-sans">
+      <>
+        <Head>
+          <title>My Next.js Website</title>
+          <meta property="og:title" content="Home Page" />
+          <meta
+            property="og:description"
+            content="Welcome to my Next.js site"
+          />
+          <meta property="og:image" content="/portfolio-cover-img.png" />
+          <meta property="og:url" content="https://yourwebsite.com" />
+          <meta property="og:type" content="website" />
+
+          {/* Twitter Meta Tags */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Home Page" />
+          <meta
+            name="twitter:description"
+            content="Welcome to my Next.js site"
+          />
+          <meta
+            name="twitter:image"
+            content="https://yourwebsite.com/homepage-image.jpg"
+          />
+        </Head>
+      </>
       <div className="fixed top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500"></div>
       <main className="max-w-3xl mx-auto px-4 py-12">
         <IntroSection />
@@ -43,7 +69,7 @@ function IntroSection() {
         >
           <Twitter size={28} />
         </a>
-          <a
+        <a
           href="https://drive.google.com/file/d/1taP9O2yztH5UdYtYjUt76vsP5EfEMO7p/view?usp=sharing"
           className="text-gray-400 hover:text-green-300 transition-colors font-semibold text-2xl"
           style={{ lineHeight: "28px", height: "28px" }}
@@ -92,7 +118,7 @@ function SkillsSection() {
 }
 
 function ProjectsSection() {
-   // {
+  // {
   //   name: "Duel Quest",
   //   description:
   //     "Dual Quest is an engaging two-player game designed to offer exciting and competitive gameplay. Whether you're competing with friends or family, Dual Quest delivers an enjoyable and interactive gaming adventure.",
@@ -115,11 +141,11 @@ function ProjectsSection() {
         "Tailwind CSS",
         "PostgreSQL",
         "Gemini AI",
-        "Drizzle"
+        "Drizzle",
       ],
     },
 
-     {
+    {
       name: "Content-Creator",
       description:
         "Content Creator is a website designed to assist creators in generating high-quality content effortlessly. Content Creator has many templates with which you can produce engaging and polished content ",
@@ -136,21 +162,16 @@ function ProjectsSection() {
       ],
     },
 
-     {
+    {
       name: "BlogNest",
       description:
         "BlogNest is a user-friendly blogging platform designed to make creating, editing, and publishing content effortless, BlogNest also includes commenting, following, and activity tracking functionalities, making it easy to engage with your audience and stay updated on the activity of those you follow.",
       github: "https://github.com/priyankasoni930/BlogNest",
       link: "https://blog-nest-steel.vercel.app/",
       form: "fullstack",
-      techStack: [
-        "Next.js",
-        "JavaScript",
-        "Tailwind CSS",
-        "MongoDB",
-      ],
+      techStack: ["Next.js", "JavaScript", "Tailwind CSS", "MongoDB"],
     },
-    
+
     {
       name: "LinkShrink",
       description:
@@ -158,9 +179,15 @@ function ProjectsSection() {
       github: "https://github.com/priyankasoni930/LinkShrink",
       link: "https://link-shrink-snowy.vercel.app/",
       form: "fullstack",
-      techStack: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind CSS", "Prisma"],
+      techStack: [
+        "Next.js",
+        "TypeScript",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Prisma",
+      ],
     },
-    
+
     {
       name: "Virtual-Herbal-Garden",
       description:
@@ -189,7 +216,6 @@ function ProjectsSection() {
       form: "backend",
       techStack: ["Node.js", "Express.js", "MongoDB", "Mongoose"],
     },
-   
   ];
 
   return (
