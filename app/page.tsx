@@ -1,34 +1,8 @@
 import { Github, Twitter, Linkedin, ExternalLink } from "lucide-react";
-import Head from "next/head";
 
 export default function Portfolio() {
   return (
     <div className="min-h-screen bg-gradient-to-br  from-gray-800 via-slate-600 to-slate-900 text-gray-100 font-sans">
-      <>
-        <Head>
-          <title>My Next.js Website</title>
-          <meta property="og:title" content="Home Page" />
-          <meta
-            property="og:description"
-            content="Welcome to my Next.js site"
-          />
-          <meta property="og:image" content="/portfolio-cover-img.png" />
-          <meta property="og:url" content="https://yourwebsite.com" />
-          <meta property="og:type" content="website" />
-
-          {/* Twitter Meta Tags */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Home Page" />
-          <meta
-            name="twitter:description"
-            content="Welcome to my Next.js site"
-          />
-          <meta
-            name="twitter:image"
-            content="https://yourwebsite.com/homepage-image.jpg"
-          />
-        </Head>
-      </>
       <div className="fixed top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500"></div>
       <main className="max-w-3xl mx-auto px-4 py-12">
         <IntroSection />
